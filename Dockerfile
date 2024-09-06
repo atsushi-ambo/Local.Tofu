@@ -21,5 +21,5 @@ RUN curl --proto '=https' --tlsv1.2 -fsSL https://get.opentofu.org/install-opent
 # Set the working directory
 WORKDIR /workspace
 
-# Set the entrypoint to bash
+# Set the entrypoint to run OpenTofu
 ENTRYPOINT ["/bin/bash", "-c", "tofu init && tofu plan"]
