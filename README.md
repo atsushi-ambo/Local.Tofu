@@ -1,4 +1,4 @@
-# OpenTofu Docker Environment and Configuration　for Macbook
+# OpenTofu Docker Environment and Configuration for Macbook
 
 This repository provides a Docker environment for working with OpenTofu, as well as instructions for configuring your `.zshrc` to streamline your workflow.
 
