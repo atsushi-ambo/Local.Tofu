@@ -1,5 +1,5 @@
 # Use an official Ubuntu 22.04 as a parent image
-FROM ubuntu:22.04
+FROM ubuntu:latest
 
 # Set environment variables to non-interactive to avoid prompts
 ENV DEBIAN_FRONTEND=noninteractive
